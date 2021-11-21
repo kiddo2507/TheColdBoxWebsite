@@ -150,6 +150,16 @@ ul li a:hover::after{
         flex-basis: 100%;
       }
 
+    .text-box p{
+    font-size: 30px;
+    line-height: 25px;
+    }  
+
+    .text-box h1{
+    font-size: 40px;
+    line-height: normal;
+    }
+
     nav ul{
         display: none;
     }
