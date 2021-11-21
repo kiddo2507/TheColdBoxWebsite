@@ -174,7 +174,6 @@ ul li a:hover::after{
   margin: 20px 25px 20px;
   height: 100px;
   background-color: white;
-  
   /* background-image: linear-gradient( rgba(0, 0, 0, 0.363), rgba(0,0,0,0.363) ), url(img/fruits2.png);
   background-size: cover; 
   background-position: center; */
@@ -302,14 +301,34 @@ h5{
     width: 70%;
   }
 
+  .column{
+    width: 85%;
+    height: 100px;
+    margin: 10px 0;
+  }
+
   .fruits{
     width: 85%;
     margin: 50px 7% 0;
   }
 
+  .fruits:hover{
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.705), rgba(0,0,0,0.705) ), url(img/fruits2.png);
+    background-size: cover; 
+    background-position: center;
+  }
+
   .veges{
     width: 85%;
     margin: 50px 7% 0; 
+  }
+
+  .veges:hover{
+    color: white;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(img/veges.png);
+    background-size: cover;
+    background-position: center;
   }
 
   .column{
@@ -320,7 +339,6 @@ h5{
   .column h3{
     font-size: 25px;
     text-align: center;
-    padding-top: 45%;
   }
 }
 
